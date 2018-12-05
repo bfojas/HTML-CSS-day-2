@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.parent {
+    height: 75%;
+    width: 75%;
+    background-color: teal;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.parent > div {
+    width: 100px;
+    height: 100px;
+    background-color: goldenrod;
+    margin: 20px;
+    
+}
+
+.parent > div:nth-child(1) {
+    /* flex: 5; */
+}
+.parent > div:nth-child(2) {
+    /* flex: 1; */
+}
+.parent > div:nth-child(3) {
+    /* flex: 3; */
+}
+.parent > div:nth-child(4) {
+    /* flex: 2; */
+}

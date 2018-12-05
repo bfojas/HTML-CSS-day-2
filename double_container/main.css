@@ -1,0 +1,55 @@
+body {
+    background-color: red;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.outer {
+    height: 80%;
+    width: 80%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner {
+    height: 80%;
+    width: 80%;
+    background-color: magenta;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: cyan;
+    position: absolute;
+}
+
+.top {
+    top: 0px
+}
+
+.bottom{
+    bottom: 0px;
+}
+
+
+.left {
+    left: 0px;
+}
+
+.right {
+    right: 0px;
+}
+
